@@ -1,4 +1,7 @@
 UPPER_BOUND = 2540160
+# you can work this out using deduction; essentially, 9! * digits(n) < n 
+# becomes true once you get to 8-digit numbers, so you get an upper bound of 9,999,999
+# and from there you can deduce that 9! * 7 = 2540160 is the next upper bound
 
 def factorial(x):
 	if x == 0: return 1;
