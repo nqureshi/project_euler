@@ -8,7 +8,7 @@ def is_multiple(x):
 
 result = 0
 for x in range (1,1000):
-	if is_multiple(x) == True:
+	if is_multiple(x):
 		result += x
 
 print result # >>233168
